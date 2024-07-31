@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/*em html e id= no css e #
+em html e class= no css e .*/
+
+p{
+    text-indent: 20px;
+    text-align: justify;
+}
+p#principal{
+     text-indent: 60px;
+}
+.basico{
+    color: rgb(0, 140, 255);
+}
+div{
+    display: inline-block;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    background-color: lightgray;
+}
+
+div#d1{
+    background-color: pink;
+}
+div:hover{
+    background-color: blue;
+}
+.div#lobo{
+    background-color: blueviolet;
+}
